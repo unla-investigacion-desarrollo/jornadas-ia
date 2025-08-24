@@ -16,7 +16,9 @@ Este proyecto demuestra varios sistemas de agentes (multi-agente en algunos caso
 - Plotly Express: Librería de Python para la creación de gráficos interactivos y dashboards HTML.
 
 # Librerias
+```bash
 pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib google-generativeai pandas openpyxl python-docx plotly python-dotenv
+```
 
 # Configuración del Proyecto en Google Cloud
 
