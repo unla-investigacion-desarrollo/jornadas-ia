@@ -1,9 +1,9 @@
-## jornadas-ia
+# jornadas-ia
 
 🚀 Ejemplo de diferentres asistentes inteligente para Jornadas de Investigación del DDPyT UNLa (4ta Edición)
 Este proyecto demuestra varios sistemas de agentes (multi-agente en algunos casos) de Inteligencia Artificial.
 
-# Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - Python: Lenguaje de programación principal para el desarrollo de los agentes.
 
@@ -15,12 +15,12 @@ Este proyecto demuestra varios sistemas de agentes (multi-agente en algunos caso
 
 - Plotly Express: Librería de Python para la creación de gráficos interactivos y dashboards HTML.
 
-# Librerias
+## Librerias
 ```bash
 pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib google-generativeai pandas openpyxl python-docx plotly python-dotenv
 ```
 
-# Configuración del Proyecto en Google Cloud
+## Configuración del Proyecto en Google Cloud
 
 Configuración de Google Cloud Project (API de Gmail y OAuth 2.0)
 Para que tu script pueda interactuar con Gmail, debes configurar un proyecto en Google Cloud Console:
@@ -38,7 +38,7 @@ Para que tu script pueda interactuar con Gmail, debes configurar un proyecto en 
 - Nota: En la sección "Usuarios de prueba", añade tu dirección de correo electrónico de G Suite. Esto es CRÍTICO para que la autenticación funcione mientras la aplicación no esté "publicada".
 
 
-# Configuración de variables de entorno y archivos necesarios
+## Configuración de variables de entorno y archivos necesarios
 
 1. API Key de Google Gemini
 
@@ -68,7 +68,7 @@ credentials.json: Debe ser el archivo que descargaste de Google Cloud Console.
 
 token.json: Este archivo se generará automáticamente la primera vez que te autentiques. Si cambias los SCOPES o la configuración de OAuth en Google Cloud, DEBES ELIMINAR token.json para forzar una nueva autenticación.
 
-# Scripts
+## Scripts
 
 ```bash
 python3 1_analisis_simple/simple.py
